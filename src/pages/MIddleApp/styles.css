@@ -1,0 +1,93 @@
+.middle {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.inputKey {
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid #829FD9 1px;
+    width: 100%;
+}
+
+.buttonKey {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #3282b8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid #4f98ca 1px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buttonKey:hover {
+    background: #bbe1fa;
+    color: #565BBF;
+}
+
+.keyNumber {
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.showPower {
+    font-family: monospace;
+    
+}
+
+.process-list {
+    margin-top: 3em;  
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.process-list table {
+    font-family: monospace;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.process-list table thead {
+    font-size: 1.5em;
+    text-align: left;
+    background: #76E897;
+
+}
+
+.process-list table tr th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #565BBF;
+}
+
+.process-list table tr:nth-child(even) {
+    background: #bbe1fa;
+}
+
+@media
+only screen and (max-width: 700px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+}

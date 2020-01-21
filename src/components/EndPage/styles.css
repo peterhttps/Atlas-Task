@@ -1,0 +1,14 @@
+.social {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.github {
+    width: 2em;
+}
+
+.github:hover {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+
+}
